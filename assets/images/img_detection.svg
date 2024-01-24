@@ -1,0 +1,27 @@
+<svg width="354" height="316" viewBox="0 0 354 316" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4.5" y="4.5" width="346" height="307" rx="24" stroke="white" stroke-width="2"/>
+<mask id="mask0_0_9202" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-11" y="-11" width="83" height="83">
+<rect x="-10.5" y="-10.5" width="82" height="82" fill="black"/>
+</mask>
+<g mask="url(#mask0_0_9202)">
+<rect x="4.5" y="4.5" width="348" height="309" rx="25" stroke="white" stroke-width="9"/>
+</g>
+<mask id="mask1_0_9202" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="282" y="244" width="83" height="83">
+<rect x="364.5" y="326.5" width="82" height="82" transform="rotate(180 364.5 326.5)" fill="black"/>
+</mask>
+<g mask="url(#mask1_0_9202)">
+<rect x="349.5" y="311.5" width="348" height="309" rx="25" transform="rotate(180 349.5 311.5)" stroke="white" stroke-width="9"/>
+</g>
+<mask id="mask2_0_9202" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="282" y="-11" width="83" height="83">
+<rect x="364.5" y="-10.5" width="82" height="82" transform="rotate(90 364.5 -10.5)" fill="black"/>
+</mask>
+<g mask="url(#mask2_0_9202)">
+<rect x="349.5" y="4.5" width="348" height="309" rx="25" transform="rotate(90 349.5 4.5)" stroke="white" stroke-width="9"/>
+</g>
+<mask id="mask3_0_9202" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-11" y="244" width="83" height="83">
+<rect x="-10.5" y="326.5" width="82" height="82" transform="rotate(-90 -10.5 326.5)" fill="black"/>
+</mask>
+<g mask="url(#mask3_0_9202)">
+<rect x="4.5" y="311.5" width="348" height="309" rx="25" transform="rotate(-90 4.5 311.5)" stroke="white" stroke-width="9"/>
+</g>
+</svg>
