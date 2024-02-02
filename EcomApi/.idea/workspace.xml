@@ -5,148 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="558da1df-d899-4b86-8829-56705e727812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/project-04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/EcomApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/configs/ApiSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/ApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/admin/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/admin/MediaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/admin/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/admin/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/auth/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/auth/SignUpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/auth/VerifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/filters/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/mails/MailUserVerificationCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/ProductDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/TransactionDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Verify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/MediaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/ProductDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/VerifyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/auth/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/auth/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/auth/VerifyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/category/CategoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/media/MediaRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/product/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/SuccessResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/AuthorUserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/VerifyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/types/RoleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/utils/MailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/utils/ModelMapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fpt/apiservice/EcomApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f319ddb-297e-4e6f-abb6-d00e3c0fcbb1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f319ddb-297e-4e6f-abb6-d00e3c0fcbb1/storage_v2/_src_/database/projectdb.V_Wpyg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f319ddb-297e-4e6f-abb6-d00e3c0fcbb1/storage_v2/_src_/database/projectdb.V_Wpyg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f319ddb-297e-4e6f-abb6-d00e3c0fcbb1/storage_v2/_src_/database/projectdb.V_Wpyg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f319ddb-297e-4e6f-abb6-d00e3c0fcbb1/storage_v2/_src_/database/projectdb.V_Wpyg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/hello.0hjpBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/hello.0hjpBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/hello.0hjpBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64664350-7cff-4808-ba60-0dbf332dada0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserResetPasswordRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/ApiService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/ApiServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/configs/ApiSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/ApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/admin/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/admin/MediaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/admin/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/admin/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/client/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/client/UploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/client/auth/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/client/auth/SignUpController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/controller/client/auth/VerifyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/filters/JwtRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/mails/MailUserVerificationCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Coupon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Media.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/ProductDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/TransactionDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/models/Verify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/repositories/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/repositories/MediaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/repositories/ProductDetailRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/repositories/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/repositories/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/repositories/VerifyRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/auth/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/auth/SignUpRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/auth/VerifyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/category/CategoryRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/media/MediaRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/product/ProductRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/request/user/UserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/ApiResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/ErrorResponse$ErrorResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/ErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/SuccessResponse$SuccessResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/SuccessResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/auth/AuthResponse$AuthResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/responses/auth/AuthResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/services/AuthorUserDetailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/services/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/services/VerifyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/types/RoleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/utils/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/utils/MailUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/classes/com/fpt/apiservice/utils/ModelMapperUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiService/target/test-classes/com/fpt/apiservice/ApiServiceApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.EcomApiApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "abc",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -246,6 +108,7 @@
       <workItem from="1706818774399" duration="683000" />
       <workItem from="1706860730508" duration="6278000" />
       <workItem from="1706882524115" duration="9747000" />
+      <workItem from="1706905111277" duration="3505000" />
     </task>
     <servers />
   </component>

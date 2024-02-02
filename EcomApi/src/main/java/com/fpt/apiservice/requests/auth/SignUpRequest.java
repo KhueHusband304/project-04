@@ -2,19 +2,23 @@ package com.fpt.apiservice.requests.auth;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data
 public class SignUpRequest {
-    @NotEmpty(message = "first name is not empty")
+    @NotEmpty(message = "First name is not empty")
     private String firstName;
-    @NotEmpty(message = "last name is not empty")
+    @NotEmpty(message = "Last name is not empty")
     private String lastName;
 
     @NotEmpty(message = "email is not empty")
-    @Email(message = "email is a@gmail.com ....")
+    @Email(message = "Email is a@gmail.com ....")
     private String email;
 
-    @NotEmpty(message = "password is not empty")
+    @NotNull(message = "Phone number is required")
+    private Long phone;
+
+    @NotEmpty(message = "Password is not empty")
     private String password;
 }

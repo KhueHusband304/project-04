@@ -10,7 +10,6 @@ import com.fpt.apiservice.requests.user.UserRequest;
 import com.fpt.apiservice.responses.auth.AuthResponse;
 import com.fpt.apiservice.utils.JwtUtil;
 import com.fpt.apiservice.utils.ModelMapperUtil;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,8 +22,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @Service
 public class UserService {
@@ -76,7 +73,15 @@ public class UserService {
             String email = authentication.getName();
             User user = userRepository.findByEmail(email);
 
-            return AuthResponse.builder().token(jwtUtil.generateToken(user)).build();
+            return AuthResponse.builder().token(jwtUtil.generateToken(user)).email(user.getEmail())
+                    .firstName(user.getFirstName())
+                    .lastName(user.getLastName())
+                    .address(user.getAddress())
+                    .phone(user.getPhone())
+                    .avatar(user.getAvatar())
+                    .errorMess(null)
+                    .is_verified(user.isVerified())
+                    .build();
 
         } catch (Exception e) {
             throw new Exception("email or password incorrect");
@@ -125,9 +130,12 @@ public class UserService {
         if (userData.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-
+        if (request.address() != null)
+            userData.get().setAddress(request.address());
+        if (request.phone() != null)
+            userData.get().setPhone(request.phone());
         if (request.password() != null)
-            userData.get().setPassword(request.password());
+            userData.get().setPassword(passwordEncoder.encode(request.password()));
         if (request.firstName() != null)
             userData.get().setFirstName(request.firstName());
         if (request.lastName() != null)
@@ -140,6 +148,7 @@ public class UserService {
                 userRepository.save(userData.get()),
                 HttpStatus.OK);
     }
+
     //delete user [service]
     public ResponseEntity deleteUser(Integer userId) {
         Optional<User> userData = userRepository.findById(userId);
@@ -151,6 +160,7 @@ public class UserService {
 
         return new ResponseEntity(HttpStatus.OK);
     }
+
     //get all user [service - admin]
     public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok(userRepository.findAll());

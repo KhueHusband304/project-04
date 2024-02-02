@@ -2,10 +2,13 @@
 package com.fpt.apiservice.models;
 
 import com.fpt.apiservice.types.RoleType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
 
@@ -29,6 +32,12 @@ public class User extends Model {
 
     @Column(name = "password", nullable = false)
     private String password;
+
+    @Column(name = "phone", nullable = false)
+    private Long phone;
+
+    @Column(name = "address", nullable = true)
+    private String address;
 
     @Column(name = "role", nullable = true)
     private RoleType role;
