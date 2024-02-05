@@ -24,6 +24,9 @@ public class Category extends Model {
     @Column(name = "name")
     private String name;
 
+    @Column(name = "thumbnail")
+    private String thumbnail;
+
     @Column(name = "parent_id")
     private Long parentId;
 }
