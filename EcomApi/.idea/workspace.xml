@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="558da1df-d899-4b86-8829-56705e727812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserResetPasswordRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/BrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/brand/brandrequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/category/CategoryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/category/CategoryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/product/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/product/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/types/RoleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/types/RoleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.EcomApiApplication.executor": "Run",
-    "git-widget-placeholder": "abc",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EcomApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;abc&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EcomApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="apiservice" />
@@ -109,6 +127,13 @@
       <workItem from="1706860730508" duration="6278000" />
       <workItem from="1706882524115" duration="9747000" />
       <workItem from="1706905111277" duration="3505000" />
+      <workItem from="1706910976560" duration="1233000" />
+      <workItem from="1707047951763" duration="7163000" />
+      <workItem from="1707067716541" duration="2010000" />
+      <workItem from="1707148957563" duration="5165000" />
+      <workItem from="1707157601017" duration="419000" />
+      <workItem from="1707236637838" duration="6637000" />
+      <workItem from="1707254096231" duration="2665000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,8 @@ public record UserRequest(
         String lastName,
         String address,
         Long phone,
-        String avatar
+        String avatar,
+        Long userId
 ) {
 
 }

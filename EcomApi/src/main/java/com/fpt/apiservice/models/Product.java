@@ -1,17 +1,30 @@
 package com.fpt.apiservice.models;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.ElementCollection;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
-import jakarta.validation.constraints.Min;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.List;
 
-public class Product extends Model{
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "product")
+@Setter
+@Getter
+public class Product {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Long id;
 
     @Column(name="name")
     private String name;
@@ -20,7 +33,6 @@ public class Product extends Model{
     private String slug;
 
     @Column(name="price")
-    @Min(0)
     private BigDecimal price;
 
     @Column(name="condition")
@@ -47,5 +59,19 @@ public class Product extends Model{
     @ElementCollection(targetClass=String.class)
     private List<String> images;
 
+    @NotNull
+    @Column(name="createdBy")
+    private Long createdBy;
 
+    @CreationTimestamp
+    @Column(name="createdDate", nullable = false, updatable = false)
+    private Date createdDate;
+
+    @NotNull
+    @Column(name="updatedBy")
+    private Long updatedBy;
+
+    @UpdateTimestamp
+    @Column(name="updatedDate", nullable = false, updatable = true)
+    private Date updatedDate;
 }

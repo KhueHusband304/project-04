@@ -15,12 +15,15 @@ import jakarta.persistence.PrePersist;
 
 import java.sql.Timestamp;
 
+import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @MappedSuperclass
-@EntityListeners({AuditingEntityListener.class})
+@EntityListeners(AuditingEntityListener.class)
+@Data
+@EqualsAndHashCode(callSuper = false)
 public class Model {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

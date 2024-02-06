@@ -99,6 +99,10 @@ public class UserService {
         return userRepository.findByEmail(email);
     }
 
+    public boolean existsByEmail(String email) {
+        return false;
+    }
+
     /**
      * Verify user
      *
