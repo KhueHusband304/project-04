@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="558da1df-d899-4b86-8829-56705e727812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/BrandRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/brand/brandrequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" afterDir="false" />
+    <list default="true" id="558da1df-d899-4b86-8829-56705e727812" name="Changes" comment="chua fix duoc createProduct">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/category/CategoryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/category/CategoryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/product/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/product/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/user/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/configs/ApiSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/configs/ApiSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/filters/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/filters/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/responses/auth/AuthResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/types/RoleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/types/RoleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,11 +118,25 @@
       <workItem from="1707148957563" duration="5165000" />
       <workItem from="1707157601017" duration="419000" />
       <workItem from="1707236637838" duration="6637000" />
-      <workItem from="1707254096231" duration="2665000" />
+      <workItem from="1707254096231" duration="6051000" />
+      <workItem from="1707265677276" duration="1804000" />
     </task>
+    <task id="LOCAL-00001" summary="chua fix duoc createProduct">
+      <option name="closed" value="true" />
+      <created>1707256840141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707256840141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chua fix duoc createProduct" />
+    <option name="LAST_COMMIT_MESSAGE" value="chua fix duoc createProduct" />
   </component>
 </project>

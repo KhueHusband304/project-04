@@ -74,12 +74,13 @@ public class UserService {
             User user = userRepository.findByEmail(email);
 
             return AuthResponse.builder().token(jwtUtil.generateToken(user)).email(user.getEmail())
+                    .id(user.getId())
+                    .role(user.getRole())
                     .firstName(user.getFirstName())
                     .lastName(user.getLastName())
                     .address(user.getAddress())
                     .phone(user.getPhone())
                     .avatar(user.getAvatar())
-                    .errorMess(null)
                     .is_verified(user.isVerified())
                     .build();
 

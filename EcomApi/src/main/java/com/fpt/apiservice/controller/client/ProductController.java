@@ -38,10 +38,10 @@ public record ProductController(ProductService productService) {
     @PostMapping
     public ResponseEntity<Product> createProduct(
             @RequestBody ProductRequest productRequest,
-            @RequestAttribute("userId") Long userId
+            @RequestAttribute("userId") Long id
     ) {
         log.info("New product created {}", productRequest);
-        return productService.createProduct(productRequest, userId);
+        return productService.createProduct(productRequest, id);
     }
 
     //update product

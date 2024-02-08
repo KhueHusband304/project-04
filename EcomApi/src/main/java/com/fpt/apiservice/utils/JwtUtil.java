@@ -17,13 +17,16 @@ public class JwtUtil {
     public String generateToken(User user) {
         Map<String, Object> claims = new HashMap<>();
         claims.put("email", user.getEmail());
-        return createToken(claims, user.getEmail());
+        claims.put("id", user.getId());
+
+        return createToken(claims, user.getEmail(), user.getId());
     }
 
-    private String createToken(Map<String, Object> claims, String email) {
+    private String createToken(Map<String, Object> claims, String email,Long id) {
         Algorithm algorithm = Algorithm.HMAC256(SECRET_KEY.getBytes());
         return JWT.create()
                 .withSubject(email)
+                .withClaim("id",id)
                 .withExpiresAt(new Date(System.currentTimeMillis() + 60 * 60 * 1000 * 24))
                 .withClaim("UserInfo", claims)
                 .sign(algorithm);

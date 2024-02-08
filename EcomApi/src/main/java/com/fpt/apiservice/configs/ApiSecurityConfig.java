@@ -53,6 +53,7 @@ public class ApiSecurityConfig {
                 .authorizeHttpRequests((request) -> request
                         .requestMatchers("/sign-up/**").permitAll()
                         .requestMatchers("/api/v1/auth/**").permitAll()
+                        .requestMatchers(HttpMethod.GET,"/api/v1/product","/api/v1/category/**", "/api/v1/brand/**").permitAll()
                         .requestMatchers("/api/v1/**").authenticated()
                         .anyRequest().authenticated()
                 )
