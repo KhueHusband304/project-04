@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title"
+    },
+    {
+      "id": "2",
+      "title": "another title"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "hieu",
+      "fullname": "trung hieu",
+      "email": "hieu@gmail.com",
+      "password": "Hieu123@",
+      "phone": "0912456124"
+    },
+    {
+      "id": "2",
+      "name": "tin",
+      "fullname": "trung tin",
+      "email": "tin@gmail.com",
+      "password": "Abc123@",
+      "phone": "0912456456"
+    },
+    {
+      "id": "3",
+      "name": "thanh",
+      "fullname": "trung thanh",
+      "email": "thanhcong@gmail.com",
+      "password": "Abc123@",
+      "phone": "0912456777"
+    },
+    {
+      "id": "d3b4",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "a391",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
