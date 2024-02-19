@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="558da1df-d899-4b86-8829-56705e727812" name="Changes" comment="chua fix duoc createProduct">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/controller/client/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Orders/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Orders/OrderProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Orders/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/repositories/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/Orders/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/Orders/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/Orders/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/requests/payment/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/services/PaymentService.java" afterDir="false" />
+    <list default="true" id="558da1df-d899-4b86-8829-56705e727812" name="Changes" comment="Payment &amp; Order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpt/apiservice/models/Order.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +114,10 @@
       <workItem from="1707236637838" duration="6637000" />
       <workItem from="1707254096231" duration="6051000" />
       <workItem from="1707265677276" duration="1804000" />
-      <workItem from="1707409665966" duration="4729000" />
+      <workItem from="1707409665966" duration="5370000" />
+      <workItem from="1707425148608" duration="113000" />
+      <workItem from="1707678071807" duration="1873000" />
+      <workItem from="1707882893844" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="chua fix duoc createProduct">
       <option name="closed" value="true" />
@@ -140,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707256840141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Payment &amp; Order">
+      <option name="closed" value="true" />
+      <created>1707418192478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707418192478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chua fix duoc createProduct" />
-    <option name="LAST_COMMIT_MESSAGE" value="chua fix duoc createProduct" />
+    <MESSAGE value="Payment &amp; Order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Payment &amp; Order" />
   </component>
 </project>
